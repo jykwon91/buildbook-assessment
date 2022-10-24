@@ -33,7 +33,14 @@ changes.json examples:
     changeType: 4,
     playlist_id: 1
   },
-
+  // Add playlist
+  {
+    changeType: 3,
+    user_id: 1,
+    playlist: {
+      song_ids: ["1"]
+    }
+  }
 }]
 ```
 
