@@ -27,7 +27,6 @@ type ChangeType int
 
 const (
 	AddSong ChangeType = iota + 1
-	RemoveSong
 	AddPlaylist
 	RemovePlaylist
 )

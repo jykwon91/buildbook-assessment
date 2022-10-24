@@ -14,10 +14,10 @@
 ## Input structure:
 
 ChangeType Enum:
-AddSong = 1
-RemoveSong = 2
-AddPlaylist = 3
-RemovePlaylist = 4
+
+- AddSong = 1
+- AddPlaylist = 3
+- RemovePlaylist = 4
 
 changes.json examples:
 
