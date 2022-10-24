@@ -1,0 +1,11 @@
+[
+  {
+    "changeType": 1,
+    "song_id": 1,
+    "playlist_id": 1
+  },
+  {
+    "changeType": 4,
+    "playlist_id": 1
+  }
+]
