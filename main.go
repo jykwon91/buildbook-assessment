@@ -36,6 +36,9 @@ func main() {
 		case AddSong:
 			AddSongToPlaylist(change.SongId, change.PlaylistId)
 			break
+		case AddPlaylist:
+			AddPlaylistForUser(change.UserId, change.Playlist)
+			break
 		case RemovePlaylist:
 			RemovePlaylistFromSpotify(change.PlaylistId)
 			break

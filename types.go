@@ -7,8 +7,8 @@ type User struct {
 
 type Playlist struct {
 	Id       string
-	Owner_id string
-	Song_ids []string
+	Owner_Id string
+	Song_Ids []string
 }
 
 type Song struct {

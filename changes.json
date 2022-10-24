@@ -7,5 +7,12 @@
   {
     "changeType": 4,
     "playlist_id": 1
+  },
+  {
+    "changeType": 3,
+    "user_id": 1,
+    "playlist": {
+      "song_ids": ["1"]
+    }
   }
 ]
