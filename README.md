@@ -6,7 +6,8 @@
 2. Running from source:
    1. After installing go:
       1. Create spotify.json and changes.json files(it will error if those files don't exist)
-      2. Execute `go run main.go -input=spotify.json -changes=changes.json -output=output.json`
+      2. Execute `go run main.go types.go util.go -input=spotify.json -changes=changes.json -output=output.json`
+      3. Or execute `go build main.go types.go util.go` and do step 4
 3. Running from binary:
 4. Execute `./main -input=spotify.json -changes=changes.json -output=output.json`
 
